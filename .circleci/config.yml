@@ -6,4 +6,5 @@ orbs:
 workflows:
   maven_test:
     jobs:
+      - cd lab-4-eureka-server
       - mvn test
